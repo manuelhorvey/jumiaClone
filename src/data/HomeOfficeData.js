@@ -1,16 +1,16 @@
-import Bruhm86Litres from '../assets/HomeOffice/Bruhm86Litres086MDTableTopRefrigeratorSilver.jpg';
-import Bruhm132LSilver from '../assets/HomeOffice/Bruhm_132LSilverDoubleDoorRefrigeratorBRD132TMDS.jpg';
-import BruhmAC from '../assets/HomeOffice/BruhmBAS12RCEWSplitAirConditioner1.5HPWhite.jpg';
-import DelronHotPlate from '../assets/HomeOffice/Delron_2_Burner_Electric_Hot_Plate_Black2000W.jpg';
-import DelronBlender from '../assets/HomeOffice/Delron_DB_1831_2_in_1_Blender_1.5L_Black.jpg';
-import DelronIron from '../assets/HomeOffice/DelronDID0023PDryPressingIron2200WattsWhiteBlue.jpg';
-import DelronKettle from '../assets/HomeOffice/Delron_DK_001_Electric_Kettle _1.8_Litre_3_Pin_PlugBlackSilver.jpg';
-import LindyShoeRack from '../assets/HomeOffice/Lindy_4_Tier_Shoe_Rack_Black.jpg';
-import SolarLamp from '../assets/HomeOffice/Solar_Street_Outdoor_LED_Lamp_Flood_Light _200W_Black.jpg';
-import SyinixBlender from '../assets/HomeOffice/Syinix_AutomaticSwallowMakerFufuPoundingBlender1200WSilverBlack.jpg';
-import WestpointFridge from '../assets/HomeOffice/Westpoint_WRN_62219_ERWDX_Side_by_Side_Fridge_With_Dispenser_556Litre_Gray.jpg';
+import Bruhm86Litres from '../assests/HomeOffice/BrLitresTableTopRefrigeratorSilver.jpg';
+import Bruhm132LSilver from '../assests/HomeOffice/Bruhm_LSilverDoubleDoorRefrigeratorBRDTMDS.jpg';
+import BruhmAC from '../assests/HomeOffice/BruhmBAS12RCEWSplitAirConditioner1.5HPWhite.jpg';
+import DelronHotPlate from '../assests/HomeOffice/Delron_2_Burner_Electric_Hot_Plate_Black2000W.jpg';
+import DelronBlender from '../assests/HomeOffice/Delron_DB_1831_2_in_1_Blender_1.5L_Black.jpg';
+import DelronIron from '../assests/HomeOffice/DelronDID0023PDryPressingIron2200WattsWhiteBlue.jpg';
+import DelronKettle from '../assests/HomeOffice/Delron_DK_001_Electric_Kettle_1.8_Litre_3_Pin_PlugBlackSilver.jpg';
+import LindyShoeRack from '../assests/HomeOffice/Lindy_4_Tier_Shoe_Rack_Black.jpg';
+import SolarLamp from '../assests/HomeOffice/Solar_Street_Outdoor_LED_Lamp_Flood_Light_200W_Black.jpg';
+import SyinixBlender from '../assests/HomeOffice/Syinix_AutomaticSwallowMakerFufuPoundingBlender1200WSilverBlack.jpg';
+import WestpointFridge from '../assests/HomeOffice/Westpoint_WRN_62219_ERWDX_Side_by_Side_Fridge_With_Dispenser_556Litre_Gray.jpg';
 
-export const HomeOffice = [
+export const HomeOfficeData = [
     {
         'id': 1,
         'Image': Bruhm86Litres,

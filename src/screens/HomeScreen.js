@@ -14,7 +14,6 @@ import HomeOfficeHeader from '../components/HomeOfficeHeader'
 import HomeOfficeDeals from '../components/HomeOfficeDeals'
 
 
-
 const HomeScreen = ({navigation}) => {
   useEffect(() => {
     navigation.setOptions({ headerShown: false });

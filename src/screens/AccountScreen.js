@@ -1,5 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native'
 import {React,useEffect} from 'react'
+import AccountHeader from '../components/AccountHeader';
+import Login from '../components/Login';
+import MyJumiaAccount from '../components/MyJumiaAccount';
+import AccountSettings from '../components/AccountSettings';
 
 const AccountScreen = ({navigation}) => {
     useEffect(() => {
@@ -7,7 +11,10 @@ const AccountScreen = ({navigation}) => {
       }, [navigation]);
   return (
     <View>
-      <Text>AccountScreen</Text>
+      <AccountHeader />
+      <Login navigation={navigation} />
+      <MyJumiaAccount />
+      <AccountSettings />
     </View>
   )
 }

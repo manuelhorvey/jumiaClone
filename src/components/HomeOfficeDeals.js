@@ -1,7 +1,6 @@
+import { ScrollView, StyleSheet, Text, View, Image } from 'react-native';
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView, Image } from 'react-native';
 import { HomeOfficeData } from '../data/HomeOfficeData';
-
 
 const truncateText = (text, limit) => {
   if (text.length <= limit) {
@@ -18,11 +17,11 @@ const HomeOfficeDeals = () => {
       style={styles.HomeOfficeImgContainer}
     >
       {HomeOfficeData.map((item, index) => {
-        const truncatedTitle = truncateText(item.title, 25); // Adjust the character limit as needed
+        const truncatedTitle = truncateText(item.title, 25);
         return (
           <View key={item.id} style={styles.HomeOfficeDealsContainer}>
             <Image source={item.Image} style={styles.HomeOfficeImgStyle} />
-            <Text style={styles.Title}>{truncatedTitle}</Text>
+            <Text fontSize='15' style={styles.Title}>{truncatedTitle}</Text>
             <Text style={styles.Price}>{item.price}</Text>
           </View>
         );
@@ -31,7 +30,7 @@ const HomeOfficeDeals = () => {
   );
 };
 
-export default RepublicMonthSales;
+export default HomeOfficeDeals;
 
 const styles = StyleSheet.create({
   HomeOfficeDealsContainer: {
