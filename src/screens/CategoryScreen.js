@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import {React,useEffect} from 'react'
+import VerticalTab from '../components/VerticalTab';
+import CategoryHeader from '../components/CategoryHeader';
 
 const CategoryScreen = ({navigation}) => {
   useEffect(() => {
@@ -7,7 +9,8 @@ const CategoryScreen = ({navigation}) => {
   }, [navigation]);
   return (
     <View>
-      <Text>CategoryScreen</Text>
+    <CategoryHeader />
+     <VerticalTab />
     </View>
   )
 }
